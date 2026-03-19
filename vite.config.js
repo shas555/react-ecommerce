@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/react-ecommerce/',
+  base: '/',
   plugins: [
     react(),
     VitePWA({
@@ -22,8 +22,8 @@ export default defineConfig({
         background_color: '#ffffff',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/react-ecommerce/',
-        scope: '/react-ecommerce/',
+        start_url: '/',
+        scope: '/',
         lang: 'en',
         categories: ['shopping', 'lifestyle'],
         icons: [
