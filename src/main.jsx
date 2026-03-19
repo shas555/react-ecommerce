@@ -15,8 +15,18 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
 )
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter basename="/react-ecommerce">
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>,
+)
+
+
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
