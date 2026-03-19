@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="col-md-6 text-md-end">
             <p className="text-muted">
               Have questions about your order? Reach out to our Ecommerce team below. 
-              We're here to help you with your urban lifestyle needs.
+              We're here to help you.
             </p>
           </div>
         </div>
